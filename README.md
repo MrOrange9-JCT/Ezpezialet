@@ -14,4 +14,4 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 <p><code>zz!info</code></p>
 
 <h4>Invita al bot:</h4>
-![Clic aquí](https://top.gg/bot/553883586210562060/edit)
+[Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
