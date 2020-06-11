@@ -14,3 +14,6 @@ Encara que no ho sembli, aquest &eacute;s el primer bot de discord en catal&agra
 
 #### Invita al bot:
 [Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
+
+#### Creador:
+[![](https://img.shields.io/badge/MrOrange9__JCT-Twitch-blueviolet)](https://www.twitch.tv/mrorange9jct)
