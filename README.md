@@ -10,7 +10,7 @@ Encara que no ho sembli, aquest &eacute;s el primer bot de discord en catal&agra
 - [x] Utilitat
 - [x] Diversió
 - [ ] Prefix personalitzat
-- [ ] Unir-se a missatges
+- [ ] Missatges de entrada
 - [ ] Sistema XP
 
 #### Prefix:
