@@ -19,7 +19,7 @@ Encara que no ho sembli, aquest &eacute;s el primer bot de discord en catal&agra
 #### Tota l'informació:
 `zz!info`
 
-#### Invita al bot:
+#### Top.gg (invita al bot):
 [Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
 
 #### Creador:
