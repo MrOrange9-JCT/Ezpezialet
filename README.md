@@ -36,6 +36,9 @@ Encara que no ho sembli, aquest &eacute;s el primers bots de discord en catal&ag
 #### Tota l'informació:
 `zz!info`
 
+#### Lista de comandaments:
+`zz!help`
+
 #### Top.gg (invita al bot):
 [Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
 
