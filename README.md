@@ -1,7 +1,6 @@
 ![](https://media.discordapp.net/attachments/553885670406488066/720939229177315358/image0.png)
 
-
-![](https://cdn.discordapp.com/attachments/716194103813210180/720979858326552626/ezpezialet-sense-fondo-llnegres.png)
+<img src="https://cdn.discordapp.com/attachments/716194103813210180/720979858326552626/ezpezialet-sense-fondo-llnegres.png" alt="Logo Ezpezialet"  width="89" height="89">
 
 -------
 
