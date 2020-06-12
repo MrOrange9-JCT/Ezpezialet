@@ -1,3 +1,5 @@
+![](https://media.discordapp.net/attachments/553885670406488066/720939229177315358/image0.png)
+
 <h1><img src="https://images.discordapp.net/avatars/553883586210562060/4045ceab46dc9196693abfc584f47107.png?size=512" alt="" width="89" height="89" />  Ezpezialet</h1>
 
 [![Discord Bots](https://top.gg/api/widget/status/553883586210562060.svg?noavatar=true) ![](https://top.gg/api/widget/lib/553883586210562060.svg?noavatar=true) ![](https://top.gg/api/widget/servers/553883586210562060.svg?noavatar=true) ![](https://top.gg/api/widget/owner/553883586210562060.svg?noavatar=true)  ![](https://top.gg/api/widget/upvotes/553883586210562060.svg?noavatar=true)](https://top.gg/bot/553883586210562060) ![](https://img.shields.io/pypi/v/discord.py?label=discord.py)
