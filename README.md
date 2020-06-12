@@ -13,6 +13,7 @@
   </a>
     <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt="">
 </p>
+
 --------
 
 ### Dels primers bots de discord en català
