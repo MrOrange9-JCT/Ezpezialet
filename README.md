@@ -34,13 +34,11 @@ Encara que no ho sembli, aquest &eacute;s el primers bots de discord en catal&ag
 `zz!info`
 
 #### Lista de comandaments:
-`zz!help`
+`zz!help` / [**Clic Aquí**](https://github.com/MrOrange9-JCT/Ezpezialet/wiki/Comandaments)
 
 #### Top.gg (invita al bot):
 [Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
 
-## Comandaments
-[**Clic Aquí**](https://github.com/MrOrange9-JCT/Ezpezialet/wiki/Comandaments)
 
 
 #### Creador:
