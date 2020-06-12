@@ -19,8 +19,8 @@
 
 --------
 
-### Dels primers bot de discord en català
-Encara que no ho sembli, aquest &eacute;s el primer bot de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)<br>Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.<br />De moment, el bot &eacute;s només en catal&agrave; per&ograve; podria ser que alg&uacute;n dia fes una versi&oacute; tradu&iuml;da.
+### Dels primers bots de discord en català
+Encara que no ho sembli, aquest &eacute;s el primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)<br>Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.<br />De moment, el bot &eacute;s només en catal&agrave; per&ograve; podria ser que alg&uacute;n dia fes una versi&oacute; tradu&iuml;da.
 
 - [x] Moderació
 - [x] Personalització del servidor
