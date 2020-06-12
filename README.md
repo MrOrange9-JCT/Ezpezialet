@@ -43,7 +43,7 @@ Encara que no ho sembli, aquest &eacute;s el primers bots de discord en catal&ag
 [Clic Aquí](https://top.gg/bot/553883586210562060 "Fes clic aqui per anar a la pàgina de top.gg")
 
 ## Comandaments
-**La llista completa de comandamets del bot**
+**La llista completa de comandamets del bot**<br></br>
 Els "<" o ">" no s'han de posar (parametres nessecaris) igualment amb els "[" o "]" (parametres opcionals)
 
 ### Diversió
