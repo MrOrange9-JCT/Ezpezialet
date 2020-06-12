@@ -1,8 +1,9 @@
 ![](https://media.discordapp.net/attachments/553885670406488066/720939229177315358/image0.png)
 
 
-<h1><img src="https://discord.com/channels/716194103196647425/716194103813210180" alt="" width="89" height="89" /></h1>
+![](https://cdn.discordapp.com/attachments/716194103813210180/720978754507112518/ezpezialet-sense-fondo.png)
 
+-------
 
 <p align="center">
   <a href="https://top.gg/bot/553883586210562060">
