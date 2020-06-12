@@ -1,8 +1,8 @@
 ![](https://media.discordapp.net/attachments/553885670406488066/720939229177315358/image0.png)
 
-<p align="center">
-	<h1><img src="https://images.discordapp.net/avatars/553883586210562060/4045ceab46dc9196693abfc584f47107.png?size=512" alt="" width="89" height="89" /> Ezpezialet</h1>
-</p>
+
+<h1><img src="https://images.discordapp.net/avatars/553883586210562060/4045ceab46dc9196693abfc584f47107.png?size=512" alt="" width="89" height="89" /> Ezpezialet</h1>
+
 
 <p align="center">
   <a href="https://top.gg/bot/553883586210562060">
