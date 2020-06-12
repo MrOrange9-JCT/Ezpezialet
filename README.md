@@ -2,7 +2,16 @@
 
 <h1><img src="https://images.discordapp.net/avatars/553883586210562060/4045ceab46dc9196693abfc584f47107.png?size=512" alt="" width="89" height="89" />  Ezpezialet</h1>
 
-<div style="text-align:center"><a href="https://top.gg/bot/553883586210562060"><img src="https://top.gg/api/widget/status/553883586210562060.svg?noavatar=true" alt="Discord Bots"> <img src="https://top.gg/api/widget/lib/553883586210562060.svg?noavatar=true" alt=""> <img src="https://top.gg/api/widget/servers/553883586210562060.svg?noavatar=true" alt=""> <img src="https://top.gg/api/widget/owner/553883586210562060.svg?noavatar=true" alt="">  <img src="https://top.gg/api/widget/upvotes/553883586210562060.svg?noavatar=true" alt=""></a> <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt=""></div>
+<p align="center">
+  <a href="https://top.gg/bot/553883586210562060">
+    <img src="https://top.gg/api/widget/status/553883586210562060.svg?noavatar=true" alt="Discord Bots">
+    <img src="https://top.gg/api/widget/lib/553883586210562060.svg?noavatar=true" alt="">
+    <img src="https://top.gg/api/widget/servers/553883586210562060.svg?noavatar=true" alt="">
+    <img src="https://top.gg/api/widget/owner/553883586210562060.svg?noavatar=true" alt="">
+    <img src="https://top.gg/api/widget/upvotes/553883586210562060.svg?noavatar=true" alt="">
+  </a>
+    <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt="">
+</p>
 
 ### El primer bot de discord en català
 Encara que no ho sembli, aquest &eacute;s el primer bot de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)<br>Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.<br />De moment, el bot &eacute;s només en catal&agrave; per&ograve; podria ser que alg&uacute;n dia fes una versi&oacute; tradu&iuml;da.
