@@ -1,7 +1,7 @@
 ![](https://media.discordapp.net/attachments/553885670406488066/720939229177315358/image0.png)
 
 
-![](https://cdn.discordapp.com/attachments/716194103813210180/720978754507112518/ezpezialet-sense-fondo.png)
+![](https://cdn.discordapp.com/attachments/716194103813210180/720979858326552626/ezpezialet-sense-fondo-llnegres.png)
 
 -------
 
