@@ -10,8 +10,8 @@
     <img src="https://top.gg/api/widget/owner/553883586210562060.svg?noavatar=true" alt="">
     <img src="https://top.gg/api/widget/upvotes/553883586210562060.svg?noavatar=true" alt="">
   </a>
-    <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt=""> ![GitHub issues](https://img.shields.io/github/issues-raw/MrOrange9-JCT/Ezpezialet?label=Errors%20Oberts)
-</p>
+    <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt=""> 
+</p> ![GitHub issues](https://img.shields.io/github/issues-raw/MrOrange9-JCT/Ezpezialet?label=Errors%20Oberts)
 
 --------
 
