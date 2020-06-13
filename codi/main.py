@@ -196,12 +196,29 @@ async def info(ctx, language='home'):
         embed.add_field(name=":grey_exclamation: Bot Prefix", value="`zz!`", inline=False)
         embed.add_field(name="<:bot:714072191968346163> Number of guilds in", value=f"{bot_guilds}", inline=False)
 
-        embed.add_field(name=":no_bell: Statuses", value="<:statusDND:714072192890961970> **Bot in maintenance**\n<:statusIdle:714072406867574815> **Bot in testing**\n<:statusOnline:714072197072683038> **All is working fine**\n<:statusOffline:714072193344208938> **Bot not working**", inline=False)
+        embed.add_field(name=":no_bell: Statuses", value="<:statusDND:714072192890961970> **Bot in maintenance**\n<:statusIdle:714072406867574815> **Bot in testing**\n<:statusOnline:714072197072683038> **All is working fine**\n<:7389_streaming:721297372059271208> **Just purple status**\n<:statusOffline:714072193344208938> **Bot not working**", inline=False)
         embed.add_field(name="<:discordbotlist:338808864352763904> Top.gg link (invite)", value="[Click Here](https://top.gg/bot/553883586210562060)", inline=False)
         embed.add_field(name="<:githublogo:720620633632800779> Github (Catalan)", value="[Click Here](https://github.com/MrOrange9-JCT/Ezpezialet)", inline=False)
         embed.add_field(name="<:python:553255078052757554> Python version ", value="3.8.2", inline=False)
         embed.set_footer(text="📚 Library: discord.py 1.3.3")
         await ctx.send(embed=embed)
+
+    if language == 'català':
+        embed2=discord.Embed(title="Informació del bot <:flag_cat:714094535340457994> <:flag_val:714094604156141638> :flag_ad:", description="L'informació de Ezpezialet (Català)", color=0xfffb00)
+        embed2.set_author(name="👑 Creador: MrOrange9_JCT#9999", icon_url="https://images-ext-2.discordapp.net/external/03DuK9mIngzpX9yLWieJXKLi8sBCcQfNKjOhp3n95QM/%3Fsize%3D256/https/cdn.discordapp.com/avatars/449992158729076746/b50b00cc16ccbf9a72686f3d8e6b4450.png")
+        embed2.set_thumbnail(url='https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/information-icon.png')
+        embed2.add_field(name=":speaking_head: Idioma", value="L'idioma del cot és el [català](https://en.wikipedia.org/wiki/Catalan_language)", inline=False)
+        embed2.add_field(name=":question: Comandament d'ajuda (Llista de comandaments)", value="zz!help", inline=False)
+        embed2.add_field(name=":sos: Ajudant de desenvoloupament", value="SpaceCowboy#8914", inline=False)
+        embed2.add_field(name=":grey_exclamation: Prefix del bot", value="`zz!`", inline=False)
+        embed2.add_field(name="<:bot:714072191968346163> Nombre de servidors", value=f"{bot_guilds}", inline=False)
+
+        embed2.add_field(name=":no_bell: Estats", value="<:statusDND:714072192890961970> **Bot en manteniment**\n<:statusIdle:714072406867574815> **Bot en proves**\n<:statusOnline:714072197072683038> **Tot funciona correctament**\n<:7389_streaming:721297372059271208> **Res, estat lila, que mola**\n<:statusOffline:714072193344208938> **Bot no funciona**", inline=False)
+        embed2.add_field(name="<:discordbotlist:338808864352763904> Top.gg (invitació)", value="[Clic Aquí](https://top.gg/bot/553883586210562060)", inline=False)
+        embed2.add_field(name="<:githublogo:720620633632800779> GitHub (Catalan)", value="[Clic Aquí](https://github.com/MrOrange9-JCT/Ezpezialet)", inline=False)
+        embed2.add_field(name="<:python:553255078052757554> Versió de python", value="3.8.2", inline=False)
+        embed2.set_footer(text="📚 Llibreria: discord.py 1.3.3")
+        await ctx.send(embed=embed2)
 
 ###########################################    COMANDAMENTS DE DIVERSIÓ    ##########################################
 
