@@ -1,12 +1,8 @@
 # Codi Ezpezialet
-© Ezpezialet - 2020
+© Ezpezialet - 2020 (MrOrange9 JCT)
 
-### Ignorar el arxiu **webserver.py**
-Com hosteigo el bot a [repl.it](https://repl.it) haig de fer un "truc" per que estigui sempre actiu.
-
+## Que en puc fer, d'aquest codi?
 Aquest codi **NO** es pot robar, però si que es pot:
 - Agafar idees
 - Mirar com esta fet un comandament
 - Agafar un comadament canviant algunes coses
-
-
