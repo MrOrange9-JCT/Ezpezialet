@@ -243,8 +243,10 @@ async def eightball(ctx, *, ques):
 # zz!f
 @client.command()
 async def f(ctx):
-    author = ctx.author.mention
-    await ctx.send(f"<:f_:554321687487840277> {author} ha pagat respectes.")
+    author = ctx.author
+    embed = discord.Embed(title=f"<:f_:554321687487840277> {author} ha pagat respectes.", color=0x303136)
+    embed.set_image(url="https://images-ext-1.discordapp.net/external/cMESiXzCOt8xPQqqxeWN43AhWL1X65d3URNqcYSYiq4/https/media.giphy.com/media/j6ZlX8ghxNFRknObVk/giphy.gif")
+    await ctx.send(embed=embed
 
 # zz!echo / say
 @client.command(aliases=['say'])
