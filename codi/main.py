@@ -15,7 +15,7 @@ import os
 
 client = commands.Bot(command_prefix=['zz!', 'zz! ', '<@553883586210562060> '])
 client.remove_command('help')
-status = cycle(["zz!help", "Minecraft", "zz!info", "Basic Programming", "Guacamelee! Gold Edition"])
+status = cycle(["zz!help", "Minecraft", "zz!info", "Basic Programming", "Guacamelee! Gold Edition", "Nothing / Nada"])
 #status = cycle(["MrOrange9 JCT en Twitch", "a una persona (no tapes tu webcam)", "el comandament zz!help", "que fa zz!giveyouup"])
 MD = discord.Embed(title="**<:greenTick:714072192358416474> Mira els missatges directes!**", descripton="\u200b", colour=0x212227)
 embed_color = 0x8404FC
