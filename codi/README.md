@@ -1,5 +1,5 @@
 # Codi Ezpezialet
-© Ezpezialet - 2020 (MrOrange9 JCT)
+El codi que faig servir per al Ezpezialet
 
 ## Que en puc fer, d'aquest codi?
 Aquest codi **NO** es pot robar, però si que es pot:
