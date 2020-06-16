@@ -8,7 +8,6 @@ import pyqrcode
 import jishaku
 import re
 from datetime import datetime
-from webserver import keep_alive
 from itertools import cycle
 from discord.ext import commands, tasks
 import os 
@@ -25,6 +24,10 @@ client.load_extension("jishaku")
 
 def is_bot(m):
     return m.author == client.user
+    
+def servers():
+    servers = client.guilds
+    return servers
 
 
 ###########################################    EVENTS    ##########################################
@@ -420,6 +423,31 @@ async def embed_error(ctx, error):
 	embed = discord.Embed(title="**<:redTick:714072192681508885> Comprova els arguments són correctes.** (`zz!help`)", description="[Llista de colors](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e#file-discord-colour-md)", colour=0x212227)
 	await ctx.send(embed=embed)
 
+# zz!placa
+@client.command()
+async def placa(ctx, *, str_input):
+    splitted_input = str_input.split(" | ")
+    etiqueta = splitted_input[0].replace("-", "--", 100)
+    etiqueta = etiqueta.replace("_", "__", 100)
+    etiqueta = etiqueta.replace(" ", "_", 100)
+    missatge = splitted_input[1].replace("-", "--", 100)
+    missatge = missatge.replace("_", "__", 100)
+    missatge = missatge.replace(" ", "_", 100)
+    try:
+        url = f"https://raster.shields.io/badge/{etiqueta}-{missatge}-{splitted_input[2]}?{splitted_input[3]}"
+        print(url)
+        embed = discord.Embed(title="**Placa generada!**")
+        embed.set_author(name="Shields.io", url="https://shields.io/", icon_url="https://cdn.discordapp.com/icons/308323056592486420/11a50197f2858fa14b74f41ceaacc4b6.png?size=128")
+        embed.set_image(url=url)
+        await ctx.send(embed=embed)
+    except:
+        url = f"https://raster.shields.io/badge/{etiqueta}-{missatge}-{splitted_input[2]}"
+        print(url)
+        embed = discord.Embed(title="**Placa generada!**")
+        embed.set_author(name="Shields.io", url="https://shields.io/", icon_url="https://cdn.discordapp.com/icons/308323056592486420/11a50197f2858fa14b74f41ceaacc4b6.png?size=128")
+        embed.set_image(url=url)
+        await ctx.send(embed=embed)
+
 # zz!infousuari / ui
 @client.command(aliases=['infousuari'])
 async def ui(ctx, *, member: discord.Member=None):
@@ -632,8 +660,8 @@ async def guilds(ctx):                   ##
 for filename in os.listdir("./cogs"):
     if filename.endswith(".py"):
         client.load_extension(f"cogs.{filename[:-3]}")
+        print("Cog Loaded!")
 
 
-keep_alive()
 TOKEN = str(os.environ.get("TOKEN"))
 client.run(TOKEN)
