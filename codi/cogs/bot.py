@@ -25,8 +25,7 @@ class Bot(commands.Cog):
     @commands.command()
     async def help(self, ctx, pag='home'):
         if pag == 'home':
-            embed = discord.Embed(title="**Missatge d'ajuda**",
-                                colour=embed_color)
+            embed = discord.Embed(title="**Missatge d'ajuda**", description=f"**{str(int(len(self.client.commands) - 1))}** comandaments", colour=embed_color)
 
             embed.set_author(name="El prefix és zz!",
                             icon_url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flat_exclamation_icon_-_blue.svg/1024px-Flat_exclamation_icon_-_blue.svg.png")
@@ -90,6 +89,7 @@ class Bot(commands.Cog):
             embed6.add_field(name="zz!google <cerca>", value="Cerca alguna cosa al google.", inline=False)
             embed6.add_field(name="zz!rannum / randomnumber <num1> <num2>", value="Nombre aleatori entre num1 i num2.", inline=False)
             embed6.add_field(name="zz!ui / infousuari [usuari]", value="Mostra informació sobre un usuari. (Si no es posa un usuari, mostra informació teva)", inline=False)
+            embed6.add_field(name="zz!placa <etiqueta> | <missatge> | [estils-extra]", value="**Important: S'ha de posar `|` per separar els parametres**\nGenera una placa, ideal per a GitHub. (Clicar a l’imatge i **Abrir Original**) [Guía d’estils extra aquí](https://shields.io) (Baixar una mica, no incluir `?`)", inline=False)
             embed6.add_field(name="zz!embed <títol> | <descripció> | <color> | [mostrarautor] | [mostrardata]", value="**Important: S'ha de posar `|` per separar els parametres**\nGenera un missatge embed, ideal per a servidors. Per fer una nova línia s'ha de posar \" \\n \" \n Llista de colors disponibles [**AQUÍ**](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e#file-discord-colour-md) Markdown: https://docs.discord.club/embedg/reference/markdown", inline=False)
             await ctx.send(embed=embed6)
 
@@ -137,6 +137,7 @@ class Bot(commands.Cog):
             embed.add_field(name=":sos: Bot Development Helper", value="SpaceCowboy#8914", inline=False)
             embed.add_field(name=":grey_exclamation: Bot Prefix", value="`zz!`", inline=False)
             embed.add_field(name="<:bot:714072191968346163> Number of guilds in", value=f"{bot_guilds}", inline=False)
+            embed.add_field(name="<:commandBlock:722094396811640872> Command count", value=f"**{str(int(len(self.client.commands) - 1))}** commands")
 
             embed.add_field(name=":no_bell: Statuses", value="<:statusDND:714072192890961970> **Bot in maintenance**\n<:statusIdle:714072406867574815> **Bot in testing**\n<:statusOnline:714072197072683038> **All is working fine**\n<:7389_streaming:721297372059271208> **Just purple status**\n<:statusOffline:714072193344208938> **Bot not working**", inline=False)
             embed.add_field(name="<:discordbotlist:338808864352763904> Top.gg link (invite)", value="[Click Here](https://top.gg/bot/553883586210562060)", inline=False)
@@ -154,7 +155,7 @@ class Bot(commands.Cog):
             embed2.add_field(name=":sos: Ajudant de desenvoloupament", value="SpaceCowboy#8914", inline=False)
             embed2.add_field(name=":grey_exclamation: Prefix del bot", value="`zz!`", inline=False)
             embed2.add_field(name="<:bot:714072191968346163> Nombre de servidors", value=f"{bot_guilds}", inline=False)
-
+            embed2.add_field(name="<:commandBlock:722094396811640872> Compte de comandaments", value=f"**{str(int(len(self.client.commands) - 1))}**  comandaments")
             embed2.add_field(name=":no_bell: Estats", value="<:statusDND:714072192890961970> **Bot en manteniment**\n<:statusIdle:714072406867574815> **Bot en proves**\n<:statusOnline:714072197072683038> **Tot funciona correctament**\n<:7389_streaming:721297372059271208> **Res, estat lila, que mola**\n<:statusOffline:714072193344208938> **Bot no funciona**", inline=False)
             embed2.add_field(name="<:discordbotlist:338808864352763904> Top.gg (invitació)", value="[Clic Aquí](https://top.gg/bot/553883586210562060)", inline=False)
             embed2.add_field(name="<:githublogo:720620633632800779> GitHub (Catalan)", value="[Clic Aquí](https://github.com/MrOrange9-JCT/Ezpezialet)", inline=False)
