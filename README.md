@@ -12,7 +12,6 @@
   </a>
     <img src="https://img.shields.io/pypi/v/discord.py?label=discord.py" alt="">
 		<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/MrOrange9-JCT/Ezpezialet?label=Errors%20Oberts">
-	  <img src="https://discordapp.com/api/guilds/716194103196647425/embed.png">
 </p>
 
 --------
