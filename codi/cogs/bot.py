@@ -100,7 +100,7 @@ class Bot(commands.Cog):
 
 
         dev.set_author(name="Això es una prova si veig que no funciona es treurà.", icon_url="https://media.discordapp.net/attachments/662994134763700267/670645503037407243/image0.png")
-        dev.set_footer(text="Estàs llest? Envia un MD al @MrOrange9_JCT#3363", icon_url="https://media.discordapp.net/attachments/662994134763700267/670645503037407243/image0.png")
+        dev.set_footer(text="Estàs llest? Envia un MD al @MrOrange9_JCT#9999", icon_url="https://media.discordapp.net/attachments/662994134763700267/670645503037407243/image0.png")
 
         dev.set_thumbnail(url="https://i.imgur.com/RPrw70n.png")
 
