@@ -227,7 +227,7 @@ async def minecraft(ctx):
     minebed.set_thumbnail(
         url="https://www.nocreasnada.com/wp-content/uploads/2019/09/2019-09-02_5d6cfd32c7b57_512dVKB22QL.png")
 
-    minebed.add_field(name="IP", value="Contacta amb el @MrOrange9_JCT#3363", inline=False)
+    minebed.add_field(name="IP", value="Contacta amb el @MrOrange9_JCT#999", inline=False)
     minebed.add_field(name="Versió", value="1.15.1", inline=False)
     minebed.add_field(name="Móns",
                       value="world, Survival i Minigames",
