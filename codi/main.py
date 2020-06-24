@@ -35,6 +35,10 @@ def servers():
 @client.event
 async def on_command_error(ctx, error):
     print(str(error))
+
+    if hasattr(ctx.command, 'on_error'):
+            return
+
     if isinstance(error, commands.MissingRequiredArgument):
         falta = discord.Embed(title="**<:redTick:714072192681508885> Argument/s necessaris faltants!**",
                               descripton="\u200b", colour=0x212227)
