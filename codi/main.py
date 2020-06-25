@@ -605,7 +605,7 @@ async def ban(ctx, user: discord.Member, *, reason='Raó: Sense definir'):
     guild_icon = ctx.guild.icon_url
     author_name = ctx.author
     author_icon = author_name.avatar_url
-    embed = discord.Embed(title="{user} ha sigut banejat!", description=f"{reason}", color=0xff2600)
+    embed = discord.Embed(title=f"{user} ha sigut banejat!", description=f"{reason}", color=0xff2600)
     embed.set_author(name=f"{author_name}", icon_url=f"{author_icon}")
     embed.set_footer(text=f"{guild}", icon_url=f"{guild_icon}")
     await ctx.send(embed=embed)
