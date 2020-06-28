@@ -260,6 +260,31 @@ async def rannum_error(ctx):
     embed = discord.Embed(title='**<:redTick:714072192681508885> Comprova que el missatge sigui: \n`rannum <num1(desde)> <num2(fins)>`**', color=0x212227)
     await ctx.send(embed=embed)
 
+# zz!minecraft 
+@client.command()
+async def minecraft(ctx, *, adress):
+    async with ctx.channel.typing():
+        async with aiohttp.ClientSession() as cs:
+            async with cs.get(f"https://mcapi.us/server/status?ip={adress}") as r:
+                data = await r.json()
+
+                name = data['server']['name']
+                players_now = data['players']['now']
+                players_max = data['players']['max']
+                motd = data['motd']
+
+                embed = discord.Embed(title=f"{adress} ({name})", description=f"**Jugadors:** {players_now}/{players_max}\n \n{motd}")
+                embed.set_footer(text="http://mcapi.us/")
+
+                await ctx.send(embed=embed)
+
+# Minecraft Error
+@minecraft.error
+async def minecraft_error(ctx, error):
+    embed = discord.Embed(title="**<:redTick:714072192681508885> Comprova si has proporcionat una IP que existeixi.**", color=0x212227)
+
+    await ctx.send(embed=embed)	
+
 # zz!morsificar
 @client.command()
 async def morsificar(ctx, *, word: str=None):
