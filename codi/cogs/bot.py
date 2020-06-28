@@ -87,6 +87,8 @@ class Bot(commands.Cog):
             embed6.add_field(name="zz!qr <text>", value="Genera un codi QR a partir del text intruduït", inline=False)
             embed6.add_field(name="zz!morsificar <text>", value="Tradueix el text intruduït a codi morse.", inline=False)
             embed6.add_field(name="zz!google <cerca>", value="Cerca alguna cosa al google.", inline=False)
+            embed6.add_field(name="zz!minecraft <ip>", value="Mostra l'estat del servidor de minecraft de la ip proporcionada", inline=False)
+            embed6.add_field(name="zz!si-no <missatge>", value="El bot envia el `<missatge>` i agrega les reaccions <:greenTick:714072192358416474> i <:redTick:714072192681508885>", inline=False)
             embed6.add_field(name="zz!rannum / randomnumber <num1> <num2>", value="Nombre aleatori entre num1 i num2.", inline=False)
             embed6.add_field(name="zz!ui / infousuari [usuari]", value="Mostra informació sobre un usuari. (Si no es posa un usuari, mostra informació teva)", inline=False)
             embed6.add_field(name="zz!placa <etiqueta> | <missatge> | [estils-extra]", value="**Important: S'ha de posar `|` per separar els parametres**\nGenera una placa, ideal per a GitHub. (Clicar a l’imatge i **Abrir Original**) [Guía d’estils extra aquí](https://shields.io) (Baixar una mica, no incluir `?`)", inline=False)
