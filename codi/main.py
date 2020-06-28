@@ -247,7 +247,6 @@ async def minecraft(ctx, *, adress):
 
                 embed = discord.Embed(title=f"{adress} ({name})", description=f"**Jugadors:** {players_now}/{players_max}\n \n{motd}\n \n**Previsualització Minecraft:**")
 		embed.set_image(url=f"http://status.mclive.eu/{adress}/{adress}/25565/banner.png")
-                embed.set_footer(text="http://mcapi.us/")
 
                 await ctx.send(embed=embed)
 
