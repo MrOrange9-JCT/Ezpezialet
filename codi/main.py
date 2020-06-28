@@ -216,34 +216,6 @@ async def coinflip(ctx):
 async def titu(ctx):
     await ctx.send(":fire: Ei titu! Vaig a fer una barbacoa, pazza'm el flamizell. Ara te'l torno.. :fire:")
 
-# zz!minecraft 
-@client.command()
-async def minecraft(ctx):
-    minebed = discord.Embed(title="**Info Server Minecraft**", description="Informació del server de Minecraft:",
-                            colour=discord.Color.green())
-
-    minebed.set_author(name="Vols saber les coordenades de les ciutats? Ves als botons de TP del spawn!",
-                       icon_url="https://cdn.discordapp.com/attachments/662994134763700267/669894359793008641/pngfuel.com.png")
-    minebed.set_footer(
-        text="Si petes algo, ban. Si poses bloques a algo, Ban. Si et mous, BAN. Si entres, **BAN**.\n Ok em calmo, la primera, es veritat",
-        icon_url="https://cdn.discordapp.com/attachments/662994134763700267/669894359793008641/pngfuel.com.png")
-
-    minebed.set_thumbnail(
-        url="https://www.nocreasnada.com/wp-content/uploads/2019/09/2019-09-02_5d6cfd32c7b57_512dVKB22QL.png")
-
-    minebed.add_field(name="IP", value="Contacta amb el @MrOrange9_JCT#999", inline=False)
-    minebed.add_field(name="Versió", value="1.15.1", inline=False)
-    minebed.add_field(name="Móns",
-                      value="world, Survival i Minigames",
-                      inline=False)
-    minebed.add_field(name="Permisos",
-                      value="De moment no estàn configurats", inline=False)
-
-    await ctx.author.send(embed=minebed)
-    await ctx.send(embed=MD)
-    await asyncio.sleep(1.5)
-    await ctx.channel.purge(limit=1, check=is_bot)
-
 
 ##########################################    COMANDAMENTS DE UTILITAT (i servidor)    #########################################
 
