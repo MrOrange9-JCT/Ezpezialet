@@ -415,6 +415,30 @@ async def google(ctx, *, input_text):
     embed.set_thumbnail(url="https://cdn.foliomag.com/wp-content/uploads/2018/04/google-logo-icon-png-transparent-background.png")
     await ctx.send(embed=embed)
 
+# zz!email
+@client.command()
+async def email(ctx, *, input_text):
+    email_to, subject, body = input_text.split(" | ")
+    with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
+        smtp.ehlo()
+        smtp.starttls()
+        smtp.ehlo()
+
+        smtp.login(os.environ.get("EMAIL_ADRESS"), os.environ.get("EMAIL_PASS"))
+
+        msg = f"Subject: {subject}\n\n{body}"
+
+        smtp.sendmail(os.environ.get("EMAIL_ADRESS"), email_to, msg)
+
+        embed = discord.Embed(title=f"**<:greenTick:714072192358416474> Correu enviat!**\n\n**Previsualització:**\n`ezpezialet@gmail.com`\n\n**{subject}**\n{body}", descripton="\u200b", colour=0x212227)
+        await ctx.send(embed=embed)
+
+# Email Error
+@email.error
+async def email_error(ctx, error):
+    embed = discord.Embed(title="**<:redTick:714072192681508885> Comprova si el correu proporcionat és vàlid, si has separat els arguments correctament i que només siguin caràcters a-z/A-Z.**\nSi tot està correcte i segueix sense funcionar, prova-ho més tard.", colour=0x212227)
+    await ctx.send(embed=embed)
+
 
 ###########################################    COMANDAMENTS DE MODERACIÓ    ##########################################
 
@@ -496,7 +520,7 @@ async def ban(ctx, user: discord.Member, *, reason='Raó: Sense definir'):
     await asyncio.sleep(1.5)
     await ctx.channel.purge(limit=1, check=is_bot)
 
-# Ban kick_error   
+# Ban Error 
 @ban.error
 async def ban_error(ctx, error):
 	embed = discord.Embed(title="**<:redTick:714072192681508885> Comprova si tú i el bot teniu el permís `Ban Users` i que els arguments siguin correctes.** (`zz!help`)", colour=0x212227)
