@@ -1,5 +1,5 @@
 # Codi Ezpezialet
-El codi que faig servir per al Ezpezialet
+El codi que faig servir per al bot de discord en català Ezpezialet.
 
 ## Que en puc fer, d'aquest codi?
 Aquest codi **NO** es pot robar, però si que es pot:
