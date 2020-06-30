@@ -418,7 +418,8 @@ async def google(ctx, *, input_text):
 # zz!email
 @client.command()
 async def email(ctx, *, input_text):
-    email_to, subject, body = input_text.split(" | ")
+    await ctx.message.delete()
+    email_to, subject, body = input_text.split(" | " or "|")
     with smtplib.SMTP("smtp.gmail.com", 587) as smtp:
         smtp.ehlo()
         smtp.starttls()
@@ -430,13 +431,13 @@ async def email(ctx, *, input_text):
 
         smtp.sendmail(os.environ.get("EMAIL_ADRESS"), email_to, msg)
 
-        embed = discord.Embed(title=f"**<:greenTick:714072192358416474> Correu enviat!**\n\n**Previsualització:**\n`ezpezialet@gmail.com`\n\n**{subject}**\n{body}", descripton="\u200b", colour=0x212227)
-        await ctx.send(embed=embed)
+        embed = discord.Embed(title=f"**<:greenTick:714072192358416474> Correu enviat!**\n\n**Previsualització:**\n`ezpezialet@gmail.com`\n\n**{subject}**\n{body}", colour=0x212227)
+        await ctx.send("", embed=embed, delete_after=10)
 
 # Email Error
 @email.error
 async def email_error(ctx, error):
-    embed = discord.Embed(title="**<:redTick:714072192681508885> Comprova si el correu proporcionat és vàlid, si has separat els arguments correctament i que només siguin caràcters a-z/A-Z.**\nSi tot està correcte i segueix sense funcionar, prova-ho més tard.", colour=0x212227)
+    embed = discord.Embed(title="**<:redTick:714072192681508885> No s'ha enviat el correu.**", description="**Comprova si el correu proporcionat és vàlid, si has separat els arguments correctament i que només siguin caràcters [ASCII](http://www.asciitable.com/index/asciifull.gif)**\nSi tot està correcte i segueix sense funcionar, prova-ho més tard", colour=0x212227)
     await ctx.send(embed=embed)
 
 
