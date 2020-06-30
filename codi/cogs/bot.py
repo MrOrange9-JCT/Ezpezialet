@@ -124,6 +124,7 @@ class Bot(commands.Cog):
     @commands.command()
     async def info(self, ctx, language='home'):
         bot_guilds = len(self.client.guilds)
+        bot_users = self.client.users
         if language == 'home':
             embedhome=discord.Embed(title="Bot Info", description="", color=embed_color)
             embedhome.add_field(name=":flag_gb: :flag_us: English", value="`zz!info english`", inline=False)
@@ -139,7 +140,7 @@ class Bot(commands.Cog):
             embed.add_field(name=":question: Help Command (Command list)", value="zz!help", inline=False)
             embed.add_field(name=":sos: Bot Development Helper", value="SpaceCowboy#8914", inline=False)
             embed.add_field(name=":grey_exclamation: Bot Prefix", value="`zz!`", inline=False)
-            embed.add_field(name="<:bot:714072191968346163> Number of guilds in", value=f"{bot_guilds}", inline=False)
+            embed.add_field(name="<:bot:714072191968346163> Stats", value=f"{bot_guilds} Servers\n{bot_users} Users", inline=False)
             embed.add_field(name="<:commandBlock:722094396811640872> Command count", value=f"**{str(int(len(self.client.commands) - 1))}** commands")
 
             embed.add_field(name=":no_bell: Statuses", value="<:statusDND:714072192890961970> **Bot in maintenance**\n<:statusIdle:714072406867574815> **Bot in testing**\n<:statusOnline:714072197072683038> **All is working fine**\n<:7389_streaming:721297372059271208> **Just purple status**\n<:statusOffline:714072193344208938> **Bot not working**", inline=False)
@@ -157,7 +158,7 @@ class Bot(commands.Cog):
             embed2.add_field(name=":question: Comandament d'ajuda (Llista de comandaments)", value="zz!help", inline=False)
             embed2.add_field(name=":sos: Ajudant de desenvoloupament", value="SpaceCowboy#8914", inline=False)
             embed2.add_field(name=":grey_exclamation: Prefix del bot", value="`zz!`", inline=False)
-            embed2.add_field(name="<:bot:714072191968346163> Nombre de servidors", value=f"{bot_guilds}", inline=False)
+            embed2.add_field(name="<:bot:714072191968346163> Estadístuques", value=f"{bot_guilds} Servidors\n{bot_users} Usuaris", inline=False)
             embed2.add_field(name="<:commandBlock:722094396811640872> Compte de comandaments", value=f"**{str(int(len(self.client.commands) - 1))}**  comandaments")
             embed2.add_field(name=":no_bell: Estats", value="<:statusDND:714072192890961970> **Bot en manteniment**\n<:statusIdle:714072406867574815> **Bot en proves**\n<:statusOnline:714072197072683038> **Tot funciona correctament**\n<:7389_streaming:721297372059271208> **Res, estat lila, que mola**\n<:statusOffline:714072193344208938> **Bot no funciona**", inline=False)
             embed2.add_field(name="<:discordbotlist:338808864352763904> Top.gg (invitació)", value="[Clic Aquí](https://top.gg/bot/553883586210562060)", inline=False)
