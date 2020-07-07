@@ -86,6 +86,7 @@ class Diversio(commands.Cog):
     # zz!echo / say
     @commands.command(aliases=['say'])
     async def echo(self, ctx, *, words=''):
+        await ctx.message.delete()
         await ctx.send(words)
 
     # zz!giveyouup
