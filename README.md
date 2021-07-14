@@ -23,9 +23,6 @@ Encara que no ho sembli, aquest &eacute;s el primers bots de discord en catal&ag
 - [x] Personalització del servidor
 - [x] Utilitat
 - [x] Diversió
-- [ ] Prefix personalitzat
-- [ ] Missatges de entrada
-- [ ] Sistema XP
 
 #### Prefix:
 `zz!`
