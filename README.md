@@ -15,8 +15,8 @@
 </p>
 
 --------
-## PORT A DISCORD.JS EN PROCÉS
-### Aquest repo pot estar desactualitzat!
+### PORT A DISCORD.JS EN PROCÉS
+#### Aquest repo pot estar desactualitzat!
 --------
 
 ### Dels primers bots de discord en català
