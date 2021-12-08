@@ -15,8 +15,9 @@
 </p>
 
 --------
-### PORT A DISCORD.JS EN PROCÉS
-#### Aquest repo pot estar desactualitzat!
+# JA NO ACTUALITZARÉ AQUEST REPOSITORI!
+### Si vols saber com alguna cosa funciona, fes-me DM a Discord.
+[!](https://img.shields.io/badge/MrOrange9__JCT%237398-Discord-%237289DA?logo=discord&logoColor=ffffff)
 --------
 
 ### Dels primers bots de discord en català
