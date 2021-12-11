@@ -10,7 +10,7 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Utilitat</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Diversió</li>
 </ul>
-
+ hola
 ### Prefix:
 `zz! o /comanda`
 
