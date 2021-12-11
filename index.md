@@ -13,10 +13,6 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-  </tr>
-  <tr>
     <td><h2>Moderació</h2><p style="font-size: 1.3em;">Amb l'<b>Ezpezialet</b> pots moderar el teu servidor d'una manera fàcil.<br>
                 Pots borrar missatges a la vegada, banejar a la gent i expulsar-la.<br>
                 Les comandes són fàcils de fer servir i molt intuitives!</p></td>
