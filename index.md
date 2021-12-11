@@ -4,7 +4,6 @@ Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&
 Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.
 
 <ul style="list-style: none;" class="contains-task-list">
-
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked="">Moderació</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Personalització del servidor</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Utilitat</li>
@@ -21,7 +20,6 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
   <tr>
     <td><img src="https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png"></td>
     <td>oderacio bla bla bla<br>blablabalabalalbala<br>sadgfabshdjfasuvdfhbjshfbjds</td>
-
 </table>
 
 
