@@ -3,11 +3,16 @@
 Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)
 Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.
 
-- [x]  Moderació
-- [x]  Millorar el teu servidor
-- [x]  Utilitat
-- [x]  Diversió
-- [x]  Comandes de sort/aleatories
+<ul class="contains-task-list">
+<li class="task-list-item">
+  <input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Moderació</li>
+<li class="task-list-item">
+  <input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Personalització del servidor</li>
+<li class="task-list-item">
+  <input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Utilitat</li>
+<li class="task-list-item">
+  <input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Diversió</li>
+</ul>
 
 ### Lista de comandaments:
 `zz!help` / [Clic Aquí](https://github.com/MrOrange9-JCT/Ezpezialet/wiki/Comandaments)
