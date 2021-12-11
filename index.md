@@ -12,9 +12,9 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 </ul>
 
 <p style="text-align:left;">
-    ### Moderació
+    <h3>Moderació<h3>
     <span style="float:right;">
-        ![](https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png) 
+        <img alt="Imatge de zz!ban" src="https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png" width="150" height="70">
     </span>
 </p>
 
