@@ -11,11 +11,22 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Diversió</li>
 </ul>
 
+<div id="moderacio" style="white-space:nowrap">
+
+    <div id="image" style="display:inline;">
+        <img alt="Imatge de zz!ban" src="https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png">
+    </div>
+
+    <div id="texts" style="display:inline; white-space:nowrap;"> 
+        <h3>Moderació</h3>
+        <p>Al bot i han tot tipus de comandes de moderació com: <code>zz!ban</code>, <code>zz!kick</code> i <code>zz!clear</code></p> 
+</div>
+
+</div>
 <p style="text-align:left;">
-    <h3>Moderació</h3>
-    <p>Al bot i han tot tipus de comandes de moderació com: <code>zz!ban</code>, <code>zz!kick</code> i <code>zz!clear</code></p>
+    
     <span style="float:right;">
-        <img alt="Imatge de zz!ban" src="https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png" width="150" height="70">
+        
     </span>
 </p>
 
