@@ -11,7 +11,13 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Diversió</li>
 </ul>
 
-![](https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png) 
+<p style="text-align:left;">
+    ### Moderació
+    <span style="float:right;">
+        ![](https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png) 
+    </span>
+</p>
+
 
 ### Prefix:
 `zz! o /comanda`
