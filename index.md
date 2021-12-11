@@ -9,8 +9,9 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 - [x]  Diversió
 - [x]  Comandes de sort/aleatories
 
+### Lista de comandaments:
+`zz!help` / [Clic Aquí](https://github.com/MrOrange9-JCT/Ezpezialet/wiki/Comandaments)
 
-### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
