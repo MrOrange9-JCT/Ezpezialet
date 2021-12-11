@@ -1,6 +1,8 @@
-## Ezpezialet
+# Ezpezialet
+## El primer bot de discord en català
 
-You can use the [editor on GitHub](https://github.com/MrOrange9-JCT/Ezpezialet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)
+Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
