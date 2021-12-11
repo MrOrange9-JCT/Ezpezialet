@@ -1,4 +1,3 @@
-# Ezpezialet
 ## El primer bot de discord en català
 
 Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)
