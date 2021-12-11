@@ -16,7 +16,7 @@
 
 --------
 ### JA NO ACTUALITZARÉ AQUEST REPOSITORI!
-#### Si vols saber com alguna cosa funciona, fes-me DM a Discord.
+#### Si vols saber com alguna cosa funciona, fes-me DM a Discord. De molent, aquest repo servira només per hostejar la web.
 ![](https://img.shields.io/badge/MrOrange9__JCT%237398-Discord-%237289DA?logo=discord&logoColor=ffffff)
 --------
 
