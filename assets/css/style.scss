@@ -6,14 +6,16 @@ $header-bg-color: #5b05fc !default;
 $header-bg-color-secondary: #8404FC !default;
 
 $section-headings-color: #8404FC !default;
+$body-text-color: #41494c !default;
 $body-link-color: #1e89bf !default;
 $code-bg-color: #6e768166 !default;
-$code-text-color: #c9d1d9 !default;
+$code-text-color: #606c71 !default;
 
 
 .dark-mode {
+  $code-text-color: #606c71 !default;
   background-color: black;
-  color: white;
+  color: #97aab2;
 }
 
 @import "{{ site.theme }}";
