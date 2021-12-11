@@ -12,7 +12,7 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 </ul>
 
 <p style="text-align:left;">
-    <h3>Moderació<h3>
+    <h3>Moderació</h3>
     <p>Al bot i han tot tipus de comandes de moderació com: <code>zz!ban</code>, <code>zz!kick</code> i <code>zz!clear</code></p>
     <span style="float:right;">
         <img alt="Imatge de zz!ban" src="https://media.discordapp.net/attachments/919329630761148428/919330574861205534/Captura_de_pantalla_2021-12-11_a_las_21.50.52.png" width="150" height="70">
