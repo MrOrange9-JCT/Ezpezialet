@@ -7,4 +7,9 @@ $header-bg-color-secondary: #8404FC !default;
 
 $section-headings-color: #8404FC !default;
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 @import "{{ site.theme }}";
