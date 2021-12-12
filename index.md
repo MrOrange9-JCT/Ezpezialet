@@ -12,7 +12,6 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 | cell4 | cell5 | cell6 | 
 |===== 
 | Foot1 | Foot2 | Foot3 
-{: rules="groups"}
 
 <table>
   <tr>
