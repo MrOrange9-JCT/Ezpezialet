@@ -3,11 +3,9 @@
 Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)
 Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.
  
-|:--------|:-------:|--------:|
-| cell1 | cell2 | cell3 | 
-| cell4 | cell5 | cell6 |
-| cell1 | cell2 | cell3 | 
-| cell4 | cell5 | cell6 | 
+| A simple | table |
+| with multiple | lines|
+{: .tablelines}
 
 <table>
   <tr>
