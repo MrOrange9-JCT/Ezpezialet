@@ -20,4 +20,4 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 
 #### **Projectes / Xarxes Socials:** [StreamerLinks](https://streamerlinks.com/MrOrange9_JCT)
 
-hola
+aaaaaa pq no s'actualitza el github aaaaa
