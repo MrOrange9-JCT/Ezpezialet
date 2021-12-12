@@ -3,7 +3,11 @@
 Encara que no ho sembli, aquest &eacute;s dels primers bots de discord en catal&agrave;. I de moment, l'&uacute;nic. (públic)
 Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar de que no hi havia cap bot de discord en catal&agrave;, i vaig decidir fer-lo public.
  
-| A simple | table |
+| ## Moderació | table |
+| Amb l'**Ezpezialet** pots moderar el teu servidor d'una manera fàcil. |
+| Pots borrar missatges a la vegada, banejar a la gent i expulsar-la. |
+| Les comandes són fàcils de fer servir i molt intuitives! |
+| -
 | with multiple | lines|
 {: .tablelines}
 
