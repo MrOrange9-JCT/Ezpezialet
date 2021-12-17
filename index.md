@@ -19,5 +19,3 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 [Clic Aquí](https://discord.gg/HgW2GaR)
 
 #### **Projectes / Xarxes Socials:** [StreamerLinks](https://streamerlinks.com/MrOrange9_JCT)
-
-github lpm aqtialitza
