@@ -18,4 +18,4 @@ Als inicis del bot, era un bot completament privat, per&ograve; em vaig adonar d
 ### Servidor oficial:
 [Clic Aquí](https://discord.gg/HgW2GaR)
 
-#### **Projectes / Xarxes Socials:** [StreamerLinks](https://streamerlinks.com/MrOrange9_JCT)
+#### **Projectes / Xarxes Socials:** [Linktree](https://linkt.ee/MrOrange9JCT)
